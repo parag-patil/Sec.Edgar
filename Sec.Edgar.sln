@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edger.Client", "Edger.Client\Edger.Client.csproj", "{38CFAD52-F305-463E-84C3-7CC6E7A1F77F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edgar.Client", "Edgar.Client\Edgar.Client.csproj", "{38CFAD52-F305-463E-84C3-7CC6E7A1F77F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edger.Host", "Edger.Host\Edger.Host.csproj", "{BA1498BA-7A96-49FD-AB22-5BF9F71D7D64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edgar.Host", "Edgar.Host\Edgar.Host.csproj", "{BA1498BA-7A96-49FD-AB22-5BF9F71D7D64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
