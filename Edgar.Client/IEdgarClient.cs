@@ -2,5 +2,5 @@ namespace Edger.Client;
 
 public interface IEdgarClient
 {
-    Task<CompanyTickersResponse?> GetCikAsync();
+    Task<object?> GetCikAsync();
 }

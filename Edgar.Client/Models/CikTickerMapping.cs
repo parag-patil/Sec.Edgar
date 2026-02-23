@@ -1,20 +1,6 @@
-using System.Text.Json.Serialization;
-
-public class CikTickerMapping
+public class CompanyInfo
 {
-    [JsonPropertyName("cik_str")]
-    public string Cik { get; set; }
-    
-    [JsonPropertyName("ticker")]
-    public string Ticker { get; set; } = "";
-    
-    [JsonPropertyName("title")]
-    public string Title { get; set; } = "";
-}
-
-// Models/CompanyTickersResponse.cs  
-public class CompanyTickersResponse
-{
-    [JsonPropertyName("rank")]
-    public List<CikTickerMapping> rank { get; set; } = new();
+    public int cik_str { get; set; }
+    public string ticker { get; set; }
+    public string title { get; set; }
 }
