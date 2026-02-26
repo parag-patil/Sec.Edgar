@@ -55,3 +55,6 @@ nunit-*.xml
 
 # Idea
 .idea/
+
+# Local appsettings
+*.user.json
